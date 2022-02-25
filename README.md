@@ -1,9 +1,9 @@
 # maya-simple-render-override
-A simple C++ plugin showing how to draw screen-space trajectories/motiontrails via a Maya Viewport 2.0 Render Override. 
+A simple C++ plugin showing how to plot screen-space trajectories/motion-trails via Maya Viewport 2.0 Render Override. 
 
 ### Build with CMake
 
-Autodesk does not provide a CMake module for Maya so something like [FindMaya.cmake](http://frarees.github.io/maya-cmake/) will be needed in order to build the plugin without modifying CMakelists.txt.
+Make sure to set environment variable `DEVKIT_LOCATION` to the installed path before running CMake.
 
 ### Usage
 
